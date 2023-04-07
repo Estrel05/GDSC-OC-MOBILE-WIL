@@ -1,4 +1,4 @@
-# __WIL__
+# __:pushpin: WIL__
 ## __1. Widget__
 flutter는 여러가지 위젯의 조합을 통해 출력 화면을 구성한다. 가장 기본적인 위젯으로 Text, Image, Icon, Container가 있다.
 ### __1.1. Text__
@@ -34,5 +34,5 @@ home: Center(
     child: Container( width: '너비', height: '높이', color: Colors.'색'))
 ```
 
-# __Question__
+# __:pushpin: Question__
 * 크롬으로 실행할 때 한글이 제대로 출력되지 않습니다.
