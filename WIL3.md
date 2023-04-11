@@ -8,9 +8,9 @@
 ## __3. AxisAlignment__
 위젯을 정렬할 때 사용하는 기능이다.
 * MainAxisAlignment: 주축을 정렬할 때 사용하며 Column은 세로축, Row는 가로축이 주축이 된다.
-* CrossAxisAlignment: 교차축을 정렬할 때 사용하며 Column은 가로축, Row는 세로축이 교차차축이 된다.
+* CrossAxisAlignment: 교차축을 정렬할 때 사용하며 Column은 가로축, Row는 세로축이 교차축이 된다.
 * Main/CrossAxisAlignment.center: 주축/교차축 방향으로 가운데 정렬한다.
-* Main/CrossAxisAlignment.spaceEvenly: 주축/교차축 방향으로 같은 간격으로 정렬한다.
+* Main/CrossAxisAlignment.spaceEvenly: 주축/교차축 방향으로 같은 간격만큼 떨어지게 정렬한다.
 
 ## __4. Scaffold__
 Material Design Visual Layout을 구현하는 데 사용되는 위젯이다. 간단히 말해 앱 디자인의 뼈대 역할을 하는 위젯이며 appBar(상단바), body(메인 화면), bottomNavigationBar(하단 메뉴) 등의 하위 위젯이 있다.
@@ -50,3 +50,4 @@ class MyApp extends StatelessWidget {
 ```
 
 # __:pushpin: Question__
+* 위젯이 늘어날수록 코드 가독성이 크게 떨어지는데 해결할 방법은 없습니까?
